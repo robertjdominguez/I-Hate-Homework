@@ -10,8 +10,8 @@ from robobrowser import RoboBrowser
 br = RoboBrowser()
 br.open('https://www.mathxlforschool.com/login_school.htm')
 login = br.get_form("inputfrm")
-login["userName"] = "mamurray318"
-login["password"] = "4ckermaN"
+login["userName"] = ""
+login["password"] = ""
 br.submit_form(login)
 
 src = str[br.parsed()]
